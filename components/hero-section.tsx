@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Bot, Banknote, GraduationCap } from "lucide-react"
+import { Banknote } from "lucide-react"
 import styles from './HeroSection.module.css'
 
 export function HeroSection() {
