@@ -1,0 +1,7 @@
+.heroSection {
+    background-image: url('/images/hero-background.png'); /* For a local image */
+    /* Or use url('https://example.com/hero-background.jpg') for an external image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

@@ -14,29 +14,13 @@ export function PdfPreviewCards() {
       image: "/images/bus.png",
       bullets: ["Automate invoicing in 15 mins.", "Free audit template included."],
       cta: "Save Time",
-    },
-    {
-      title: "AI Trends",
-      icon: <TrendingUp className="h-8 w-8 text-primary" />,
-      badge: "2024 Trends",
-      image: "/images/ai.png",
-      bullets: ["7 under-the-radar AI tools.", "Profit strategies for each trend."],
-      cta: "Stay Ahead",
-    },
-    {
-      title: "AI Education",
-      icon: <Users className="h-8 w-8 text-primary" />,
-      badge: "Free Curriculum",
-      image: "/images/edu.png",
-      bullets: ["12 no-code AI project ideas.", "Student success case studies."],
-      cta: "Train Talent",
-    },
+    }
   ]
 
   return (
     <section className="py-12 md:py-16">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Choose Your Free Playbook</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Preview Your Free Playbook</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {pdfCards.map((card, index) => (
