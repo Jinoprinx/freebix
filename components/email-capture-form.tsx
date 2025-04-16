@@ -124,7 +124,7 @@ export function EmailCaptureForm() {
                     )}
                   />
 
-                  <Button type="submit" className="w-full text-lg py-6" disabled={isSubmitting}>
+                  <Button type="submit" className="bg-gradient-to-r from-[#00008b] to-[#0687b9] w-full text-lg py-6" disabled={isSubmitting}>
                     {isSubmitting ? "Processing..." : "Get Instant Access →"}
                   </Button>
 

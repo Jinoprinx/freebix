@@ -14,6 +14,22 @@ export function PdfPreviewCards() {
       image: "/images/bus.png",
       bullets: ["Automate invoicing in 15 mins.", "Free audit template included."],
       cta: "Save Time",
+    },
+    {
+      title: "AI Business Trends",
+      icon: <TrendingUp className="h-8 w-8 text-primary" />,
+      badge: "2025 Trends",
+      image: "/images/ai.png",
+      bullets: ["7 under-the-radar AI tools for Businesses.", "Profit strategies for each trend."],
+      cta: "Stay Ahead",
+    },
+    {
+      title: "AI Education",
+      icon: <Users className="h-8 w-8 text-primary" />,
+      badge: "Free Curriculum",
+      image: "/images/hero-backgrou.png",
+      bullets: ["12 no-code AI project ideas.", "Student success case studies."],
+      cta: "Train Talent",
     }
   ]
 

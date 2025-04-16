@@ -27,14 +27,13 @@ export function HeroSection() {
         <div className="relative">
           <Button
             size="lg"
-            className="text-lg px-8 py-6 animate-pulse hover:animate-none transition-all"
+            className="bg-gradient-to-r from-[#00008b] to-[#0687b9] text-lg px-8 py-6 animate-pulse hover:animate-none transition-all"
             onClick={() => {
               const formElement = document.getElementById("email-form")
               if (formElement) {
                 formElement.scrollIntoView({ behavior: "smooth" })
               }
-            }}
-          >
+            }}>
             Download Now
           </Button>
         </div>
